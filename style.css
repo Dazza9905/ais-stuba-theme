@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://m3.material.io/styles/color/static/baseline#b5a485b5-ee5f-4890-b7a2-ead284121e37');
+
+
+:root {
+    /* general color vars */
+    --info-crit-container: #8C1D18;
+    --info-crit-text: #F9DEDC;
+    
+    --info-container: #04409F;
+    --info-text: #D0E4FF;
+    
+    --surface-container: #211F26;
+    --on-surface: #E6E0E9;
+    
+    /* accent color vars */
+    /*
+    --primary: #6750A4;
+    --on-primary: #FFFFFF;
+    --primary-hover: hsl(263, 100%, 93%);
+    --on-primary-hover: #4F378B;
+    */
+    
+    --primary: hsl(341, 77%, 29%);
+    --on-primary: #FFFFFF;
+    --primary-hover: hsl(341, 100%, 93%);
+    --on-primary-hover: hsl(341, 43%, 38%);
+    
+    
+    --secondary: #625B71;
+    --on-secondary: #FFFFFF;
+    
+    
+    /* ais color vars */
+    --menitka__bg: var(--primary);
+    --menitka_color: var(--on-primary);
+}
+
+
+
+body {
+    background: #141218;
+    margin: 0px;
+}
+
+nav[aria-label="breadcrumb"] {
+    background-color: #141218;
+    color: #E6E0E9;
+}
+
+/* Notifikacie */
+.zasadky-info {
+    background-color: #04409F;
+    border: solid 1px #D0E4FF;
+    color: white;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+}
+
+.zasadky-crit {
+    background-color: var(--info-crit-container);
+}
+
+.zasadky-crit * {
+    color: var(--info-crit-text) !important;
+}
+
+.zasadka svg {
+    width: 1rem !important;
+}
+
+.zasadka {
+    min-height: 2em;
+    border-radius: 1rem;
+}
+
+.zasadka * {
+    border-radius: 1rem;
+    border: 0px;
+    color: #ffffffdb;
+}
+
+
+/* Menus */
+#menitko #vsechny-polozky > .polozky-obal {
+    
+	float: left;
+	margin: 0px 0px 7px 5px;
+	width: 500px;
+    height: 200px;
+	position: relative;
+	box-shadow: 0px 0px 0px 0px;
+	border-radius: 5px;
+	background: linear-gradient(var(--menitka__bg) 2rem, transparent 2rem);
+	background-color: var(--surface-container);
+	box-sizing: border-box;
+}
+
+#menitko #vsechny-polozky > .polozky-obal > .ramecek-boky > div > .prostor-ikona > ul *{
+	color: var(--on-surface);
+    background: none;
+    border-radius: 100px;
+    padding: 0.5em 1em;
+    margin: 4px;
+    width: auto;
+    transition: 0.2s;
+    text-decoration: none;
+}
+#menitko #vsechny-polozky > .polozky-obal > .ramecek-boky > div > .prostor-ikona > ul > li * b{
+   padding: 0px;
+}
+
+#menitko #vsechny-polozky > .polozky-obal > .ramecek-boky > div > .prostor-ikona > ul > li:hover *{
+    color: var(--on-secondary);
+    background-color: var(--secondary);
+}
+
+#menitko #vsechny-polozky > .polozky-obal > .ramecek-boky > div > .prostor-ikona > ul > li:has(b) *{
+    color: var(--on-primary);
+    background-color: var(--primary);
+}
+#menitko #vsechny-polozky > .polozky-obal > .ramecek-boky > div > .prostor-ikona > ul > li:has(b):hover *{
+    color: var(--on-primary-hover);
+    background-color: var(--primary-hover);
+}
