@@ -1,2 +1,2 @@
 # ais-stuba-theme
-Clean and minimal skin for AIS.
+A clean, minimal theme for the STU (FIIT) Academic Information System.
