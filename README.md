@@ -3,7 +3,7 @@ A clean, minimal theme for the STU (FIIT) Academic Information System.
 
 I hope I won't abandon this project xd
 
-## 🚧 Under Active Development
+## 🚧 Under Development
 - Not yet usable.
 
 ## 💾 Requirements & Installation
