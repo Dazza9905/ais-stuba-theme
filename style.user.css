@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name           STU AIS Theme
+@namespace      github.com/Dazza9905/ais-stuba-theme
+@version        1.0.1
+@description    A clean, minimal theme for the STU (FIIT) Academic Information System.
+@author         Dazza9905
+@updateURL      https://raw.githubusercontent.com/Dazza9905/ais-stuba-theme/main/style.user.css
+@downloadURL    https://raw.githubusercontent.com/Dazza9905/ais-stuba-theme/main/style.user.css
+==/UserStyle== */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://m3.material.io/styles/color/static/baseline#b5a485b5-ee5f-4890-b7a2-ead284121e37');
 
