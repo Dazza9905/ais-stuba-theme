@@ -1,6 +1,6 @@
 # STU AIS Theme
 A clean, minimal theme for the STU (FIIT) Academic Information System.<br>
-*I hope I won't abandon this project xd*
+*I hope I won't abandon this project xd* (i did, for now 💀)
 
 ## 🚧 Under Development
 - Not yet usable.
